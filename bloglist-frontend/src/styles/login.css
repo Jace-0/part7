@@ -1,0 +1,24 @@
+.login-form-container {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    color: #000000;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .login-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    border-bottom: 2px solid #000;
+    padding-bottom: 0.5rem;
+  }
+  
+  .login-button {
+    margin: 8%;
+    margin-left: auto;
+    width: 100%;
+    font-weight: bold;
+  }
+

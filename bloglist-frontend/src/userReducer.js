@@ -1,0 +1,13 @@
+import { combineSlices } from '@reduxjs/toolkit'
+import { useReducer } from 'react'
+
+const userReducer = (state, action) => {
+  switch(action.type){
+  case 'SET_USER':
+    return action.payload
+
+  default: return state
+  }
+}
+
+export default userReducer

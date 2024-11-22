@@ -1,0 +1,30 @@
+/* User.css */
+
+/* Import New York Times-like font */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+.nyt-container {
+  font-family: 'Libre Baskerville', serif;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.nyt-header {
+  font-size: 2.5rem;
+  border-bottom: 2px solid #000;
+  padding-bottom: 10px;
+}
+
+.nyt-table th {
+  background-color: #e9ecef;
+  font-weight: bold;
+}
+
+.nyt-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.nyt-link:hover {
+  text-decoration: underline;
+}

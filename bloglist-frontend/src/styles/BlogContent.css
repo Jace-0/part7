@@ -1,0 +1,31 @@
+/* BlogContent.css */
+.ny-times-title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2rem;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+
+.blog-url {
+  font-family: 'Libre Baskerville', serif;
+  color: #e616a7;
+  text-decoration: none;
+}
+
+
+.deleteBtn {
+    margin-bottom: 5%;
+    background-color: '#e23636';
+    color: 'whiteSmoke';
+    border-radius: '5px'
+}
+
+.ny-times-comments {
+    font-family: 'Bold', serif;
+    color: #333;
+  }

@@ -1,0 +1,23 @@
+/* index.css */
+
+/* Set the global font family to Libre Baskerville */
+body {
+    font-family: 'Libre Baskerville', serif;
+    /* background-color: #f8f9fa; /* Optional: Customize background color */
+    /* color: #212529; Optional: Customize text color */ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Optional: Customize links globally
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  } */
+  
+  /* Additional global styles can be added here */
