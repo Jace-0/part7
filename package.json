@@ -6,8 +6,8 @@
     ],
     "scripts": {
 
-      "build": "npm run build --workspace=packages/frontend && npm run build --workspace=packages/backend",
-      "start-prod": "npm run start-prod --workspace=packages/backend",
+      "build": "npm run build --workspace=packages/frontend",
+      "start-prod": "npm run start-prod --workspace=packages/backend && --workspace=packages/frontend",
       "test": "npm test --workspace=packages/frontend && npm test --workspace=packages/backend",
       "test:e2e": "npm test --workspace=packages/e2e",
       "lint": "npm run lint --workspace=packages/frontend"
