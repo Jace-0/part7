@@ -23,6 +23,7 @@ const BlogContent = ({ blogs, updateBlogState, handleDelete, user }) => {
     if (blog?.comments) {
       setComments(blog.comments)
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id, blog])
 
   if (!blog) {
