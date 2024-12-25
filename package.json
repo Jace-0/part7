@@ -10,7 +10,7 @@
       "start-prod": "npm run start-prod --workspace=packages/backend",
       "test": "npm test --workspace=packages/frontend && npm test --workspace=packages/backend",
       "test:e2e": "npm test --workspace=packages/e2e",
-      "eslint": "npm run eslint --workspace=packages/frontend && npm run eslint --workspace=packages/backend"
+      "lint": "npm run lint --workspace=packages/frontend"
     }
   }
 
