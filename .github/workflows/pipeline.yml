@@ -50,13 +50,6 @@ jobs:
           npx wait-on http://localhost:3003
           npm run test:e2e
 
-      - name: Deploy to Render
-        if: ${{ github.event_name == 'push' && success() }}
-        uses: johnbeynon/render-deploy-action@v0.0.8
-        with:
-          service-id: ${{ secrets.RENDER_SERVICE_ID }}
-          api-key: ${{ secrets.RENDER_API_KEY }}
-
   tag_release:
     needs: [simple_deployment_pipeline] # This makes it wait for the first job
     runs-on: ubuntu-20.04
