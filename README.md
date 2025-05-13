@@ -2,6 +2,14 @@
 
 Welcome to the Blog App! This application lets users upload blog titles and links, interact by liking and commenting, and delete their blogs.
 
+## Assets
+
+Include images from the `assets` folder in your documentation or UI:
+
+- ![Image 1](./assests/image.png)
+- ![Image 2](./assests/image0.png)
+- ![Image 3](./assests/image1.png)
+
 ## Key Features
 
 - **Upload Blogs**: Add blog titles and links.
@@ -52,11 +60,3 @@ Welcome to the Blog App! This application lets users upload blog titles and link
 - **Frontend**: React, Redux
 - **Backend**: Node.js, Express
 - **Database**: MongoDB
-
-## Assets
-
-Include images from the `assets` folder in your documentation or UI:
-
-- ![Image 1](../bloglist-App/assests/image.png)
-- ![Image 2](../bloglist-App/assests/image0.png)
-- ![Image 3](../bloglist-App/assests/image1.png)
