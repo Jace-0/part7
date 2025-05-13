@@ -1,4 +1,4 @@
-import getUsers from '../services/users'
+import userService from '../services/users'
 import { useState, useEffect } from 'react'
 import {
   Link
@@ -10,14 +10,13 @@ import '../styles/User.css'
 const User = () => {
   const [users, setUsers] = useState([])
 
-
   useEffect(() => {
-    getUsers()
+    userService.getUsers()
       .then(data => {
         setUsers(data)
       })
       .catch(error => console.error('Error fetching users:', error))
-  }, [])
+  }, [users])
 
 
   return (

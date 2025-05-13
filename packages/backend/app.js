@@ -29,9 +29,12 @@ app.use(morgan('tiny'))
 app.use(middleware.requestLogger)
 app.use(middleware.tokenExtractor)
 
-// use middleware in all routes
-// app.use(middleware.userExtractor)
-// use the middleware only in /api/blog routes
+app.use(express.static('dist'))
+  app.get('/', (req, res) => {
+      res.sendFile(path.join(__dirname, 'dist', 'index.html'))
+    })
+
+
 app.use('/api/blogs', middleware.userExtractor, blogRouter)
 app.use('/api/users', usersRouter)
 app.use('/api/login', loginRouter)

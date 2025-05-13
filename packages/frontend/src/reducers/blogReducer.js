@@ -16,4 +16,3 @@ const blogSlice = createSlice({
 export const { setBlog , Blogs } = blogSlice.actions
 
 export default blogSlice.reducer
-// export const setBlog = ()

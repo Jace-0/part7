@@ -28,7 +28,6 @@ loginRouter.post('/', async (request, response) => {
 
     )
 
-    // console.log('it came through ', {token, username: user.username, name: user.name, id: user._id})
     
     response
         .status(200)
